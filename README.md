@@ -37,7 +37,9 @@ ping -c 3 192.168.124.129
 
 # Enumerate service versions on the target host
 nmap -sV 192.168.124.129
-```
+``` 
+![Nmap Scan Results](recon_scan.png)
+*Figure 1: Split-pane terminal scan verifying network reachability via ICMP ping and service exposure via Nmap.*
 *Observation: The Nmap output confirms Port 21 is open and running the target software version.*
 
 ### 2. Exploitation via Metasploit Framework
@@ -62,7 +64,9 @@ set RHOST 192.168.124.129
 # Execute the payload
 exploit
 ```
-
+![Metasploit Configuration](metasploit_setup.png)
+*Figure 2: Configuring variables within the Metasploit Framework.*
+! 
 ### 3. Post-Exploitation Enumeration
 Once the shell session is successfully established on the hidden port (6200), run core system commands to verify root-level context and map the host architecture.
 
@@ -79,6 +83,11 @@ uname -a
 # Identify the host system name
 hostname
 ```
+![Exploit Success](exploit_success.png)
+*Figure 3: Exploitation phase triggering the bind shell mechanism and establishing a remote session.*
+
+![Root Proof](proof_of_root.png)
+*Figure 4: Post-exploitation commands validating root administrative context.*
 
 ---
 
