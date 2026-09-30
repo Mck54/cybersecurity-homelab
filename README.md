@@ -26,10 +26,10 @@ Select a specific research module below to view full technical breakdowns, step-
 * **Concepts Practiced:** SMB service version enumeration, **Reverse TCP Shell handling**, administrative privilege exploitation, and highly restricted Linux credential configuration harvesting (`/etc/shadow` extraction).
 * **🔗 Project Documentation:** [👉 Click to View Samba Walkthrough](./samba-walkthrough.md)
 
-### ☁️ Module 3: Cloud Incident Response & Threat Hunting Report
+### ⏳ Upcoming Module 3: Cloud Incident Response & Threat Hunting Report
 * **Target Vector:** Administrative API Token Compromise / Corporate Data Exfiltration
-* **Concepts Practiced:** Log file forensic analysis, Cloud Identity & Access Management (IAM) privilege abuse identification, Indicators of Compromise (IoC) tracking, and enterprise remediation architecture design.
-* **🔗 Project Documentation:** [👉 Click to View Cloud Security Report](./cloud-incident-report.md)
+* **Concepts:** Log file forensic analysis, Cloud Identity & Access Management (IAM) abuse tracking, Indicators of Compromise (IoC) mapping.
+* **Status:** 🛠️ *Currently in development. Lab environment provisioning in progress.*
 
 ---
 _Disclaimer: All documented exploits, configurations, and analytical walk-throughs contained within this repository are executed strictly within isolated academic virtualization environments for authorized educational analysis purposes only._
