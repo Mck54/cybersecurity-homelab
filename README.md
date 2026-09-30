@@ -19,7 +19,7 @@ Select a specific research module below to view full technical breakdowns, step-
 ### 📡 Module 1: FTP Supply Chain Backdoor Validation
 * **Target Vector:** `vsftpd 2.3.4` (CVE-2011-2523)
 * **Concepts Practiced:** Host reconnaissance, automated bind shell exploitation execution hooks, framework parameter debugging (`LHOST` validation workarounds).
-* **🔗 Project Documentation:** [View Complete Walkthrough (README.md)](https://github.com) *(Note: Keep this section intact below if preferred, or use a dedicated module file)*
+* **🔗 Project Documentation:** [View Complete Walkthrough (README.md)](vsftpd-walkthrough.md) *(Note: Keep this section intact below if preferred, or use a dedicated module file)*
 
 ### 📁 Module 2: Command Injection & Credential Harvesting via SMB
 * **Target Vector:** Samba `usermap_script` (CVE-2007-2447)
